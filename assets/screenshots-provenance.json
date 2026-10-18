@@ -1,0 +1,24 @@
+{
+  "commit": "a1906561df54a183b452af7507663924bc0e75d0",
+  "branch": "main",
+  "version": "2.0.1",
+  "build": "2",
+  "bundle_id": "com.mediatoolssuite.app",
+  "uncommitted_capture_inputs": [
+    "ideoAudioSuite/Models/AppState.swift",
+    "VideoAudioSuiteUITests/VideoAudioSuiteUITests.swift",
+    "VideoAudioSuiteUITests/Fixtures/"
+  ],
+  "uncommitted_captions_or_template": true,
+  "app_store_version": "not on the App Store",
+  "checked_at": "2026-10-17T12:48:44+00:00",
+  "platform": "macos",
+  "macos": "27.0",
+  "xcode": "Xcode 27.0",
+  "configuration": "Debug",
+  "appearance": "light",
+  "run": "run-20261017-084843",
+  "screenshots": {
+    "screenshot.png": "ba3b83dec7718c8b149a6e465be36dd7e4b07230bfc12a57cf74860522fb72ef"
+  }
+}

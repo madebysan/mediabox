@@ -1,0 +1,46 @@
+{
+  "app": {
+    "version_project": "VideoAudioSuite.xcodeproj",
+    "build_project": "VideoAudioSuite.xcodeproj",
+    "xcodegen_spec": null,
+    "scheme": "VideoAudioSuite",
+    "configuration": "Debug",
+    "xcodebuild_args": [],
+    "product": "Mediabox",
+    "bundle_id": "com.mediatoolssuite.app",
+    "simulator_bundle_id": "com.mediatoolssuite.app",
+    "capture_inputs": [
+      "VideoAudioSuite",
+      "VideoAudioSuite.xcodeproj",
+      "VideoAudioSuiteUITests"
+    ]
+  },
+  "theme": {
+    "background": [
+      "#000000",
+      "#161616"
+    ],
+    "glow": "rgb(255 255 255 / 0.06)",
+    "text": "#F2F2F2",
+    "secondary": "#A0A0A0",
+    "accent": "#FFFFFF",
+    "kicker": "#A0A0A0",
+    "heading_font": "/System/Library/Fonts/SFNS.ttf",
+    "heading_weight": 600,
+    "kicker_font": "/System/Library/Fonts/SFNS.ttf",
+    "kicker_weight": 600
+  },
+  "locale": "screenshots",
+  "screenshots_root": "assets",
+  "provenance": "assets/screenshots-provenance.json",
+  "appearance": "light",
+  "test": "VideoAudioSuiteUITests/VideoAudioSuiteUITests/testCaptureStoreSet",
+  "slots": [
+    {
+      "file": "screenshot.png",
+      "capture": "workspace",
+      "frame": false
+    }
+  ],
+  "platform": "macos"
+}
