@@ -40,7 +40,7 @@ NOT_LISTED = "not on the App Store"
 
 
 def git(*args: str) -> str:
-    return subprocess.run(["git", "-C", str(PROJECT), *args], check=True, capture_output=True, text=True).stdout.strip()
+    return subprocess.run(["git", "-C", str(PROJECT), *args], check=True, capture_output=True, text=True).stdout.rstrip()
 
 
 def app_target_setting(name: str) -> str | None:
