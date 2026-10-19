@@ -30,7 +30,19 @@ Drop files on the left, pick an operation in the middle (search them, or star fa
 
 ## Install
 
-Install ffmpeg first (`brew install ffmpeg`), then download Mediabox from the [latest release](https://github.com/madebysan/mediabox/releases/latest) and drag it to Applications. It's signed and notarized and updates itself through [Sparkle](https://sparkle-project.org). Enhance Audio also needs the [arnndn models](https://github.com/richardpl/arnndn-models) cloned to `~/arnndn-models`. To build it, open `VideoAudioSuite.xcodeproj` and run; tests, project structure and adding an operation are in [docs/development.md](docs/development.md).
+Install ffmpeg first (`brew install ffmpeg`), then download Mediabox from the [latest release](https://github.com/madebysan/mediabox/releases/latest) and drag it to Applications. It's signed and notarized and updates itself through [Sparkle](https://sparkle-project.org). Enhance Audio also needs the [arnndn models](https://github.com/richardpl/arnndn-models) cloned to `~/arnndn-models`.
+
+## Build from source
+
+Open `VideoAudioSuite.xcodeproj` in Xcode and press **Cmd+R**, or build from the command line. The built app is named Mediabox.
+
+```bash
+xcodebuild build -project VideoAudioSuite.xcodeproj -scheme VideoAudioSuite -configuration Debug -destination 'platform=macOS'
+```
+
+Run the unit and UI tests with the same arguments and `test` instead of `build`. Add `-only-testing:VideoAudioSuiteTests` or `-only-testing:VideoAudioSuiteUITests` to run one suite.
+
+Contributions are welcome: fork the repo, make one focused change per pull request, and run the tests before you open it.
 
 ---
 
